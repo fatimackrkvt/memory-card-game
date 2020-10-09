@@ -20,10 +20,10 @@ export class BoardComponent implements OnInit {
   constructor(private modalService: NgbModal) { }
 
   ngOnInit() {
-     this.cards = [{id:1, name:'Bee1', img:'/assets/images/Bee1.png', imgShown:'/assets/images/yellow.png', isOpen:false},
-                   {id:2, name:'Bee1', img:'/assets/images/Bee1.png', imgShown:'/assets/images/yellow.png', isOpen:false},
-                   {id:3, name:'Bee2', img:'/assets/images/Bee2.png', imgShown:'/assets/images/yellow.png', isOpen:false},
-                   {id:4, name:'Bee2', img:'/assets/images/Bee2.png', imgShown:'/assets/images/yellow.png', isOpen:false},
+     this.cards = [{id:1, name:'Bee1', img:'~/assets/images/Bee1.png', imgShown:'~/assets/images/yellow.png', isOpen:false},
+                   {id:2, name:'Bee1', img:'~/assets/images/Bee1.png', imgShown:'~/assets/images/yellow.png', isOpen:false},
+                   {id:3, name:'Bee2', img:'~/assets/images/Bee2.png', imgShown:'~/assets/images/yellow.png', isOpen:false},
+                   {id:4, name:'Bee2', img:'~/assets/images/Bee2.png', imgShown:'~/assets/images/yellow.png', isOpen:false},
                    {id:5, name:'Butterfly1', img:'/assets/images/butterfly1.png', imgShown:'/assets/images/yellow.png', isOpen:false},
                    {id:6, name:'Butterfly1', img:'/assets/images/butterfly1.png', imgShown:'/assets/images/yellow.png', isOpen:false},
                    {id:7, name:'Butterfly2', img:'/assets/images/butterfly2.png', imgShown:'/assets/images/yellow.png', isOpen:false},
