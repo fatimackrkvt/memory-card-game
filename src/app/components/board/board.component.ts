@@ -50,8 +50,8 @@ export class BoardComponent implements OnInit {
          }
        }
        else{
-           firstClickedCard.imgShown = "/assets/images/yellow.png";
-           cardItem.imgShown = "/assets/images/yellow.png";
+           firstClickedCard.imgShown = "assets/images/yellow.png";
+           cardItem.imgShown = "assets/images/yellow.png";
            firstClickedCard.isOpen = false;
            cardItem.isOpen = false;
        }
